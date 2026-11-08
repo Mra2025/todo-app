@@ -9,7 +9,7 @@ def done(number):
 
 def show():
     for i, task in enumerate(tasks, start=1):
-        print(f"{i}) {task}")
+        print(f"[{i}] {task}")
 
 def count():
     return len(tasks)
