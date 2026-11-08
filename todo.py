@@ -14,6 +14,9 @@ def show():
 def count():
     return len(tasks)
 
+def clear():
+    tasks.clear()
+
 if __name__ == "__main__":
     add("Install Git")
     add("Finish the Git lab")
