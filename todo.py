@@ -11,9 +11,12 @@ def show():
     for i, task in enumerate(tasks, start=1):
         print(f"{i}. {task}")
 
+def count():
+    return len(tasks)
+
 if __name__ == "__main__":
     add("Install Git")
     add("Finish the Git lab")
     done(1)
     show()
-    
+    print("Tasks left:", count())
