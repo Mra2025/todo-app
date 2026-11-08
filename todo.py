@@ -16,4 +16,4 @@ if __name__ == "__main__":
     add("Finish the Git lab")
     done(1)
     show()
-    print("debug!!!")
+    
